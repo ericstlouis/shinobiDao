@@ -140,7 +140,7 @@ export default function Home() {
     } else if (nftBalanceOfUser.data === 0) {
       return (
         <div className={styles.description}>
-          You do not own any CryptoDevs NFTs. <br />
+          You do not own any Shinobi Dao NFTs. <br />
           <b>You cannot create or vote on proposals</b>
         </div>
       );
@@ -197,14 +197,14 @@ export default function Home() {
   return (
     <div className={inter.className}>
       <Head>
-        <title>CryptoDevs DAO</title>
+        <title>Shinobi DAO</title>
         <meta name="description" content="CryptoDevs DAO" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
+          <h1 className={styles.title}>Welcome to Shinobi DAO!</h1>
           <div className={styles.description}>Welcome to the DAO!</div>
           <div className={styles.description}>
             Your CryptoDevs NFT Balance: {nftBalanceOfUser?.data?.toString()}
